@@ -93,21 +93,7 @@
                 </p>
             </div>
 
-            <!-- <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div> -->
-
-            <!-- <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div> -->
+           
         </div>
     </div>
     <!-- End #experience -->
@@ -235,7 +221,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> REYHANA
+                        Copyright &copy; <span id="current-year">2025</span> REYHANA
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -305,55 +291,7 @@ else{
     </script>
 
 
-<!-- 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    function isValidEmail(email) {
-        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailPattern.test(email);
-    }
 
-    $("#submit-form").submit(function (e) {
-        e.preventDefault();
-
-        let valid = true;
-        const email = $("#email").val().trim();
-        const message = $("#message").val().trim();
-
-        // Clear previous errors
-        $("#email-error").text("");
-        $("#message-error").text("");
-
-        // Email validation
-        if (!isValidEmail(email)) {
-            $("#email-error").text("Please enter a valid email address.");
-            valid = false;
-        }
-
-        // Message validation
-        if (message === "") {
-            $("#message-error").text("Please enter a valid message.");
-            valid = false;
-        }
-
-        // Stop if any validation fails
-        if (!valid) return;
-
-        // Submit via AJAX if valid
-        $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbwpIWutn_jzucUaRalTvtWkliUQIY-WcEBynsbGYN0x0bOz0NOPHv64ZxdkgqwdTD61Ww/exec",
-            data: $("#submit-form").serialize(),
-            method: "POST",
-            success: function (response) {
-                alert("Form submitted successfully");
-                window.location.reload();
-            },
-            error: function (err) {
-                alert("Something went wrong!");
-            }
-        });
-    });
-</script> -->
     
 </body>
 
